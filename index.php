@@ -80,7 +80,7 @@
 						if ($movie->poster_path) {
 							$img_url = $client->config->images->base_url . $client->config->images->poster_sizes[1] . $movie->poster_path;
 						} else {
-							$img_url = 'http://placehold.it/154x208/&amp;text=N/A';
+							$img_url = 'http://placehold.it/154x231/&amp;text=N/A';
 						}
 
 				?>
